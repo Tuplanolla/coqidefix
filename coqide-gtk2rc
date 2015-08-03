@@ -1,0 +1,6 @@
+style "inverted"
+{
+	text[NORMAL] = "#000000000000"
+	base[NORMAL] = "#ffffffffffff"
+}
+class "GtkTextView" style : highest "inverted"
