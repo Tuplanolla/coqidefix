@@ -6,7 +6,8 @@ use a custom color theme with a dark background in CoqIDE.
 ## Usage
 
 Put the values of `background_color`, `processed_color` and `processing_color`
-from `~/.config/coq/coqiderc` into `coqidefix.h`,
+from `~/.config/coq/coqiderc` into `coqidefix.h` or vice versa,
+edit `change` in `coqidefix.c` for more precise control,
 compile `coqidefix.so` by calling `make`,
 copy `coqide-gtk2rc` into `~/.config/coq/coqide-gtk2rc` and
 call `coqide` with `LD_PRELOAD=./coqidefix.so coqide`.

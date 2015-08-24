@@ -26,19 +26,19 @@ struct skip {
 
 static struct skip const skips[] = {
 	{
-		.parsed = TRUE,
+		.parsed = FALSE,
 		.match.before = {
 			.spec = "#010101010101",
 			.ignore_case = TRUE
 		},
 	}, {
-		.parsed = TRUE,
+		.parsed = FALSE,
 		.match.before = {
 			.spec = "#000040400000",
 			.ignore_case = TRUE
 		},
 	}, {
-		.parsed = TRUE,
+		.parsed = FALSE,
 		.match.before = {
 			.spec = "#404000000000",
 			.ignore_case = TRUE
